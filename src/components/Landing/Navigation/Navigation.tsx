@@ -25,19 +25,19 @@ export default function Navigation() {
       <nav className={activeNavbar ? "" : "hidden md:block"}>
         <ul className='flex flex-col gap-3 bg-black text-center py-2 md:gap-0 md:flex-row md:bg-inherit lg:gap-6 lg:mr-4'>
           <li>
-            <LinkBtn href='#'>Restaurante</LinkBtn>
+            <LinkBtn href='#about'>Restaurante</LinkBtn>
           </li>
           <li>
-            <LinkBtn href='#'>Historia</LinkBtn>
+            <LinkBtn href='#history'>Historia</LinkBtn>
           </li>
           <li>
-            <LinkBtn href='#'>Carta</LinkBtn>
+            <LinkBtn href='#menu'>Carta</LinkBtn>
           </li>
           <li>
-            <LinkBtn href='#'>Localización</LinkBtn>
+            <LinkBtn href='#reservation'>Localización</LinkBtn>
           </li>
           <li>
-            <LinkBtn href='#' alternative>
+            <LinkBtn href='#reservation' alternative>
               Reservar
             </LinkBtn>
           </li>

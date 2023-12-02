@@ -3,7 +3,7 @@ import { montserrat } from "./fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Ambiente único y especial",
+  title: "El mejor lugar para ir comer",
   description: "Aplicación web ficticia para restaurante.",
 };
 

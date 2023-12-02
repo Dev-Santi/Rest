@@ -12,7 +12,7 @@ export default function LinkBtn({
   return (
     <Link
       className={
-        "text-white uppercase text-sm font-bold md:px-1 md:mx-2 md:py-2 md:rounded-full md:hover:bg-white md:hover:text-black xl:text-[1.1rem] " +
+        "text-white uppercase text-sm font-bold md:px-1 md:mx-2 md:py-2 md:rounded-full md:hover:bg-white md:hover:text-black xl:text-[1.1rem] lg:shadow-[0_5px_5px_5px_rgba(0,0,0,0.5)] " +
         (alternative ? "md:bg-yellow md:text-black lg:px-6 lg:py-3" : "md:bg-black lg:px-4 lg:py-2")
       }
       href={href}
