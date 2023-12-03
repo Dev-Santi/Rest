@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Form from "../Form/Form";
 import { FaInstagram, FaTiktok, FaWhatsapp } from "react-icons/fa";
 
 export default function ReservationCard() {
@@ -46,39 +47,7 @@ export default function ReservationCard() {
       <div className='lg:w-[25rem]'>
         <h2 className='mb-2 font-bold text-3xl'>Haz una reserva</h2>
         <p className='font-bold my-4'>También puedes reservar por teléfono si lo prefieres.</p>
-        <form className='flex flex-col gap-8 text-black'>
-          <input
-            name='date'
-            id='date'
-            className='h-12 px-2 placeholder:text-black'
-            type='datetime-local'
-            required
-          />
-          <input
-            className='h-12 px-2 placeholder:text-black'
-            placeholder='Tu nombre'
-            type='text'
-            required
-          />
-          <input
-            className='h-12 px-2 placeholder:text-black'
-            placeholder='Tu correo electrónico'
-            type='email'
-            required
-          />
-          <input
-            className='h-12 px-2 placeholder:text-black'
-            placeholder='Tu teléfono'
-            type='text'
-            required
-          />
-          <button
-            type='submit'
-            className='block bg-yellow w-full text-black font-semibold rounded-full text-sm text-center py-2 uppercase hover:bg-white'
-          >
-            Reservar mesa
-          </button>
-        </form>
+        <Form />
       </div>
     </div>
   );
