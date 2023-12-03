@@ -23,7 +23,7 @@ export default function Home() {
               </span>
             </h1>
             <div className='flex gap-5 justify-center mt-5 '>
-              <LinkBtn href='#'>Carta</LinkBtn>
+              <LinkBtn href='#menu'>Carta</LinkBtn>
               <LinkBtn alternative href='#reservation'>
                 Reservar
               </LinkBtn>
