@@ -35,7 +35,7 @@ export default function Home() {
       {/* About */}
       <div
         id='about'
-        className='bg-[url("/img/bg_2.png")] min-h-screen bg-cover flex items-center justify-center lg:justify-start lg:pl-24 border-b-2 border-white'
+        className='bg-[url("/img/bg_2.png")] min-h-screen py-24 bg-cover flex items-center justify-center lg:justify-start lg:pl-24 border-b-2 border-white'
       >
         <section className='max-w-[90rem] p-6'>
           <Card
@@ -63,7 +63,7 @@ export default function Home() {
       {/* History */}
       <div
         id='history'
-        className='bg-[url("/img/bg_3.png")] min-h-screen bg-cover flex items-center justify-center lg:justify-end lg:pr-24 border-b-2 border-white'
+        className='bg-[url("/img/bg_3.png")] min-h-screen py-24 bg-cover flex items-center justify-center lg:justify-end lg:pr-24 border-b-2 border-white'
       >
         <section className='max-w-[90rem] p-6'>
           <Card
@@ -88,7 +88,7 @@ export default function Home() {
       {/* Menu */}
       <div
         id='menu'
-        className='bg-[url("/img/bg_4.png")] min-h-screen bg-cover flex items-center justify-center lg:justify-start lg:pl-24 border-b-2 border-white'
+        className='bg-[url("/img/bg_4.png")] min-h-screen py-24 bg-cover flex items-center justify-center lg:justify-start lg:pl-24 border-b-2 border-white'
       >
         <section className='max-w-[90rem] p-6'>
           <MenuCard />
@@ -98,7 +98,7 @@ export default function Home() {
       {/* Reserva */}
       <div
         id='reservation'
-        className='bg-[url("/img/bg_4.png")] min-h-screen bg-cover flex items-center justify-center'
+        className='bg-[url("/img/bg_4.png")] min-h-screen py-24 bg-cover flex items-center justify-center'
       >
         <section className='max-w-[90rem] p-6'>
           <ReservationCard />
