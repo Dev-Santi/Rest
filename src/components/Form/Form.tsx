@@ -9,7 +9,7 @@ export default function Form() {
   const [tel, setTel] = useState("");
 
   function resetForm() {
-    setDate("");
+    setDate("Ingrese la fecha");
     setName("");
     setEmail("");
     setTel("");
