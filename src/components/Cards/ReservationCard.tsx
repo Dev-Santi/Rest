@@ -30,13 +30,21 @@ export default function ReservationCard() {
         <p className='font-bold text-yellow mb-2'>tu@correoelectronico.uy</p>
         <span>Redes sociales</span>
         <div className='flex items-center gap-3 text-yellow text-2xl mt-2'>
-          <Link target='_blank' href='https://www.instagram.com/santii.larrosa/'>
+          <Link
+            className='hover:text-white'
+            target='_blank'
+            href='https://www.instagram.com/santii.larrosa/'
+          >
             <FaInstagram />
           </Link>
-          <Link target='_blank' href='https://wa.me/+59897111899'>
+          <Link className='hover:text-white' target='_blank' href='https://wa.me/+59897111899'>
             <FaWhatsapp />
           </Link>
-          <Link target='_blank' href='https://www.tiktok.com/es/' className='text-xl'>
+          <Link
+            target='_blank'
+            href='https://www.tiktok.com/es/'
+            className='text-xl hover:text-white'
+          >
             <FaTiktok />
           </Link>
         </div>
