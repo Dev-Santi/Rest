@@ -33,7 +33,7 @@ export default function Form() {
         name='date'
         id='date'
         className='h-12 w-full px-2 placeholder:text-black'
-        placeholder='Ingrese la fecha: dd/mm/aa'
+        placeholder='dd/mm/aaaa'
         value={date}
         onChange={(e) => setDate(e.target.value)}
         type='text'
